@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Homework 4
+    </title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <H1> Crystal Collector!</H1>
+    <div class="p">
+        <p>
+            You will be given a random number at the start of the game.
+        </p>
+        <p>
+            There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
+            total
+            score
+        </p>
+        <p>
+            You win by matching your score to the random number, you lose if your score goes above the random number.
+        </p>
+        <p>
+            The value of each crystal is hidden until you click on it.
+        </p>
+        <p>
+            Each time the game starts the values of each crystal changes.
+        </p>
+    </div>
+    <div class="count">
+        <div id="number" class="left">?</div>
+        <div class="winLose">
+            <div id="win" class="left">Wins: 0</div>
+            <br>
+            <div id="Loss" class="left">Loss: 0</div>
+        </div>
+    </div>
+    <div>
+        <img id="button1" class="images" src="assets/images/crystal1.png" alt="Flowers in Chania">
+        <img id="button2" class="images" src="assets/images/crystal2.png" alt="Flowers in Chania">
+        <img id="button3" class="images" src="assets/images/crystal3.png" alt="Flowers in Chania">
+        <img id="button4" class="images" src="assets/images/crystal4.png" alt="Flowers in Chania">
+        <br>
+    </div>
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="scorelbl">
+            Your score is:
+        </p>
+        <p id="score">
+            0
+        </p>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
